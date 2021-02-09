@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="ui/test.css">
+ <title>Document</title>
+ <style>
+  body{ font-size: 1.5em;} 
+  .container{ margin: 40px; margin-top: 60px}
+ </style>
+</head>
+<body>
+ <div class="container">
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+   Veritatis consequatur neque molestias <span class="tooltip" data-message="I'm a tootip!!">
+   reiciendis delectus odio </span> accusamus vel facilis aut velit earum 
+   explicabo officiis  impedit, adipisci voluptas in! Quibusdam, accusantium ullam?</p>
+
+   <h2>Services</h2>
+   <div class="dropdown">
+      <div class="trigger">Awesome T-shirt Desings</div>
+      <div class="content">
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laudantium laboriosam atque ducimus quos recusandae. Dolor earum cum ut quibusdam aliquam atque voluptas sed deserunt! Rerum eum dolore reiciendis ea.</p>
+      </div>
+     </div>
+   <div class="dropdown">
+      <div class="trigger">Cool Man!</div>
+      <div class="content">
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laudantium laboriosam atque ducimus quos recusandae. Dolor earum cum ut quibusdam aliquam atque voluptas sed deserunt! Rerum eum dolore reiciendis ea.</p>
+   </div>
+
+   <h2>More information</h2>
+   <!-- tabs -->
+   <div class="tabs">
+    <ul>
+     <li class="trig active" data-target="#about">About</li>
+     <li class="trig"  data-target="#delivery">Delivery info</li>
+     <li class="trig"  data-target="#returns">Returns info</li>
+    </ul>
+    <div id="about" class="content active">
+     <h3>about</h3>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id molestiae ipsam repudiandae consequuntur officia, et dicta at vel in omnis quos, commodi illum eaque distinctio quisquam deleniti ad? Animi, est.</p>
+    </div>
+    <div id="delivery" class="content">
+     <h3>delivery</h3>
+     <p>No blanditiis deleniti, a b numquam similque eligendi soluta
+      necessitatibus, ex quibusdam illum eaque voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio facere laudantium deleniti. Officiis ratione dicta aperiam et amet mollitia est, doloremque esse magnam vitae libero, quis possimus explicabo, facilis tempore. 
+     </p>
+    </div>
+
+    <div id="returns" class="content">
+     <h3>returns</h3>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id molestiae ipsam repudiandae consequuntur officia, et dicta at vel in omnis quos, commodi illum eaque distinctio quisquam deleniti ad? Animi, est.</p>
+    </div>
+      <button class="snackbar-trigger">click me</button>
+   </div>
+
+   </div>
+
+
+
+ <script src="toolipt.js"></script>
+ <script src="js.js"></script>
+</body>
+</html>
